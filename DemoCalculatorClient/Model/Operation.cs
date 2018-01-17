@@ -9,15 +9,15 @@ namespace DemoCalculatorClient.Model
     public class Operation
     {
         [DataMember(Name = "parm1")]
-        public int Left { get; set; }
+        public double Left { get; set; }
 
         [DataMember(Name = "parm2")]
-        public int Right { get; set; }
+        public double Right { get; set; }
 
         [DataMember(Name = "op")]
         public string Operator { get; set; }
 
-        public int Result { get; set; }
+        public double Result { get; set; }
 
         public override string ToString()
         {

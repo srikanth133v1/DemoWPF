@@ -8,7 +8,7 @@ namespace DemoCalculatorClient.Business
     /// </summary>
     public class CalculatorRepository : ICalculatorRepository
     {
-        public int Calculate(Operation opModel)
+        public double Calculate(Operation opModel)
         {
             switch (opModel.Operator)
             {

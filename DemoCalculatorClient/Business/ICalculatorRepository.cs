@@ -7,6 +7,6 @@ namespace DemoCalculatorClient.Business
     /// </summary>
     public interface ICalculatorRepository
     {
-        int Calculate(Operation opModel);
+        double Calculate(Operation opModel);
     }
 }
